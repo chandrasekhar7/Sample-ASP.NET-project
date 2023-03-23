@@ -59,7 +59,7 @@ jobs:
       Solution_Name: Sample.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
       Test_Project_Path: "**/*.csproj"                    # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
       Wap_Project_Directory: sample.web    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
-      Wap_Project_Path: "**/Sample.Web"                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.MyWpfApp.Package
+      Wap_Project_Path: .                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.MyWpfApp.Package
     steps:
     - name: Checkout
       uses: actions/checkout@v3
